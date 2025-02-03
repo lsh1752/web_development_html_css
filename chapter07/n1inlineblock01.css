@@ -1,0 +1,7 @@
+ul > li {
+  /* margin: 0 2em 0 0; */
+  /* display: inline; */
+  /* display: block; default값으로 볼 수 있음(div이 아니기 때문에 이렇게 작성했습니다. */
+  display: inline-block;
+
+}
