@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #5f5f5f;
+}
+
+#header {
+  display: flex;
+  flex-basis: 100px;
+  align-items: flex-end;
+  padding: 12px;
+  background-color: skyblue;
+  gap: 12px;
+}
+
+#header > * {
+  background-color: lightblue;
+  padding: 12px 0;
+  text-align: center;
+}
+
+#header > *:first-child {
+  flex-basis: 100px;
+  background-image: url(../chapter08/mona-lisa.jpg);
+}
+
+#header > *:last-child {
+  flex-grow: 1;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#content {
+  padding: 24px;
+  background-color: lightblue;
+}
+
+#footer {
+  flex-basis: 100px;
+  background-color: brown;
+}

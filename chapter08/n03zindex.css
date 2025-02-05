@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  display: flex;              /* Flexbox 사용 */
+  align-items: center;        /* 세로 중앙 정렬 */
+  justify-content: center;    /* 가로 중앙 정렬 */
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+div {
+  width: 300px;
+  height: 80px;
+  line-height: 80px;          /* 텍스트 수직 정렬 */
+  text-align: center;         /* 텍스트 가로 정렬 */
+  background-color: skyblue;
+  /* fixed position을 사용하려면, 아래 코드를 활성화하면 됩니다. 
+  position: fixed;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  */
+}
+
+/* position: fixed; */
+  /* top: calc(50%-40px);
+  left: calc(50%-150px); */
